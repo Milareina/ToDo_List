@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#taskInput {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+#addTaskBtn {
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: #2e1cf2;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#addTaskBtn:hover {
+  background-color: #31d8e8;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+li.completed {
+  background-color: #f2f2f2;
+  text-decoration: line-through;
+}
